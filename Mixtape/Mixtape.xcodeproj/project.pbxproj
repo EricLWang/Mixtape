@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		156C84B72031254F00884684 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156C84B62031254F00884684 /* AppDelegate.swift */; };
+		156C84B92031254F00884684 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156C84B82031254F00884684 /* ViewController.swift */; };
+		156C84BC2031254F00884684 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 156C84BA2031254F00884684 /* Main.storyboard */; };
+		156C84BE2031254F00884684 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 156C84BD2031254F00884684 /* Assets.xcassets */; };
+		156C84C12031254F00884684 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 156C84BF2031254F00884684 /* LaunchScreen.storyboard */; };
+		156C84CC2031255000884684 /* MixtapeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156C84CB2031255000884684 /* MixtapeTests.swift */; };
+		156C84D72031255000884684 /* MixtapeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156C84D62031255000884684 /* MixtapeUITests.swift */; };
+		63C344EACE262F2630C000F2 /* Pods_MixtapeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F7A37DB4DDCC7FC0F28C4E /* Pods_MixtapeTests.framework */; };
+		CBA6C6C305445D46F740F330 /* Pods_Mixtape.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2155404C7519A25DF2B3E948 /* Pods_Mixtape.framework */; };
+		D9E5909F6566FA961F0E749E /* Pods_MixtapeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7463BD92C02ACE04155F152F /* Pods_MixtapeUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		156C84C82031255000884684 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 156C84AB2031254E00884684 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 156C84B22031254F00884684;
+			remoteInfo = Mixtape;
+		};
+		156C84D32031255000884684 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 156C84AB2031254E00884684 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 156C84B22031254F00884684;
+			remoteInfo = Mixtape;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EEFE34AFDE3CD7318467952 /* Pods-MixtapeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MixtapeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MixtapeUITests/Pods-MixtapeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		156C84B32031254F00884684 /* Mixtape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mixtape.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		156C84B62031254F00884684 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		156C84B82031254F00884684 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		156C84BB2031254F00884684 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		156C84BD2031254F00884684 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		156C84C02031254F00884684 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		156C84C22031255000884684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		156C84C72031255000884684 /* MixtapeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MixtapeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		156C84CB2031255000884684 /* MixtapeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixtapeTests.swift; sourceTree = "<group>"; };
+		156C84CD2031255000884684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		156C84D22031255000884684 /* MixtapeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MixtapeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		156C84D62031255000884684 /* MixtapeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixtapeUITests.swift; sourceTree = "<group>"; };
+		156C84D82031255100884684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1747F3973FADB7AB81CD959B /* Pods-MixtapeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MixtapeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MixtapeTests/Pods-MixtapeTests.release.xcconfig"; sourceTree = "<group>"; };
+		2155404C7519A25DF2B3E948 /* Pods_Mixtape.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mixtape.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A235CDECF4CACF457D5B9ED /* Pods-Mixtape.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mixtape.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mixtape/Pods-Mixtape.release.xcconfig"; sourceTree = "<group>"; };
+		41081F59FB4E83242BF27173 /* Pods-MixtapeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MixtapeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MixtapeTests/Pods-MixtapeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7463BD92C02ACE04155F152F /* Pods_MixtapeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MixtapeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A300E04D66856AAA58CD8390 /* Pods-MixtapeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MixtapeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MixtapeUITests/Pods-MixtapeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A8F7A37DB4DDCC7FC0F28C4E /* Pods_MixtapeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MixtapeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC127D1C4CCAF3C2B231C8EE /* Pods-Mixtape.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mixtape.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mixtape/Pods-Mixtape.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		156C84B02031254F00884684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA6C6C305445D46F740F330 /* Pods_Mixtape.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		156C84C42031255000884684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C344EACE262F2630C000F2 /* Pods_MixtapeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		156C84CF2031255000884684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9E5909F6566FA961F0E749E /* Pods_MixtapeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		156C84AA2031254E00884684 = {
+			isa = PBXGroup;
+			children = (
+				156C84B52031254F00884684 /* Mixtape */,
+				156C84CA2031255000884684 /* MixtapeTests */,
+				156C84D52031255000884684 /* MixtapeUITests */,
+				156C84B42031254F00884684 /* Products */,
+				B434AEB09810E6E84CA45E84 /* Pods */,
+				F502D75E6E4C148A286C9230 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		156C84B42031254F00884684 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				156C84B32031254F00884684 /* Mixtape.app */,
+				156C84C72031255000884684 /* MixtapeTests.xctest */,
+				156C84D22031255000884684 /* MixtapeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		156C84B52031254F00884684 /* Mixtape */ = {
+			isa = PBXGroup;
+			children = (
+				156C84C22031255000884684 /* Info.plist */,
+				156C84B62031254F00884684 /* AppDelegate.swift */,
+				156C84B82031254F00884684 /* ViewController.swift */,
+				156C84BA2031254F00884684 /* Main.storyboard */,
+				156C84BF2031254F00884684 /* LaunchScreen.storyboard */,
+				156C84BD2031254F00884684 /* Assets.xcassets */,
+			);
+			path = Mixtape;
+			sourceTree = "<group>";
+		};
+		156C84CA2031255000884684 /* MixtapeTests */ = {
+			isa = PBXGroup;
+			children = (
+				156C84CB2031255000884684 /* MixtapeTests.swift */,
+				156C84CD2031255000884684 /* Info.plist */,
+			);
+			path = MixtapeTests;
+			sourceTree = "<group>";
+		};
+		156C84D52031255000884684 /* MixtapeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				156C84D62031255000884684 /* MixtapeUITests.swift */,
+				156C84D82031255100884684 /* Info.plist */,
+			);
+			path = MixtapeUITests;
+			sourceTree = "<group>";
+		};
+		B434AEB09810E6E84CA45E84 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC127D1C4CCAF3C2B231C8EE /* Pods-Mixtape.debug.xcconfig */,
+				2A235CDECF4CACF457D5B9ED /* Pods-Mixtape.release.xcconfig */,
+				41081F59FB4E83242BF27173 /* Pods-MixtapeTests.debug.xcconfig */,
+				1747F3973FADB7AB81CD959B /* Pods-MixtapeTests.release.xcconfig */,
+				0EEFE34AFDE3CD7318467952 /* Pods-MixtapeUITests.debug.xcconfig */,
+				A300E04D66856AAA58CD8390 /* Pods-MixtapeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F502D75E6E4C148A286C9230 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2155404C7519A25DF2B3E948 /* Pods_Mixtape.framework */,
+				A8F7A37DB4DDCC7FC0F28C4E /* Pods_MixtapeTests.framework */,
+				7463BD92C02ACE04155F152F /* Pods_MixtapeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		156C84B22031254F00884684 /* Mixtape */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 156C84DB2031255100884684 /* Build configuration list for PBXNativeTarget "Mixtape" */;
+			buildPhases = (
+				27AAF7AF676DC49C0D65ED89 /* [CP] Check Pods Manifest.lock */,
+				156C84AF2031254F00884684 /* Sources */,
+				156C84B02031254F00884684 /* Frameworks */,
+				156C84B12031254F00884684 /* Resources */,
+				D12632339735BF1F1B3E7370 /* [CP] Embed Pods Frameworks */,
+				62B4F9146C14895EBBB07503 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mixtape;
+			productName = Mixtape;
+			productReference = 156C84B32031254F00884684 /* Mixtape.app */;
+			productType = "com.apple.product-type.application";
+		};
+		156C84C62031255000884684 /* MixtapeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 156C84DE2031255100884684 /* Build configuration list for PBXNativeTarget "MixtapeTests" */;
+			buildPhases = (
+				12B43F03E6BA3EEC44D054DC /* [CP] Check Pods Manifest.lock */,
+				156C84C32031255000884684 /* Sources */,
+				156C84C42031255000884684 /* Frameworks */,
+				156C84C52031255000884684 /* Resources */,
+				FF4CD5D8027D05889993CF78 /* [CP] Embed Pods Frameworks */,
+				59B118F1C74F252BD86EDA95 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				156C84C92031255000884684 /* PBXTargetDependency */,
+			);
+			name = MixtapeTests;
+			productName = MixtapeTests;
+			productReference = 156C84C72031255000884684 /* MixtapeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		156C84D12031255000884684 /* MixtapeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 156C84E12031255100884684 /* Build configuration list for PBXNativeTarget "MixtapeUITests" */;
+			buildPhases = (
+				503171FB3D26E69933A494B7 /* [CP] Check Pods Manifest.lock */,
+				156C84CE2031255000884684 /* Sources */,
+				156C84CF2031255000884684 /* Frameworks */,
+				156C84D02031255000884684 /* Resources */,
+				2C49369BD44667C5C335B697 /* [CP] Embed Pods Frameworks */,
+				DB8E1FD533B2457F92599A78 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				156C84D42031255000884684 /* PBXTargetDependency */,
+			);
+			name = MixtapeUITests;
+			productName = MixtapeUITests;
+			productReference = 156C84D22031255000884684 /* MixtapeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		156C84AB2031254E00884684 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = EricWang;
+				TargetAttributes = {
+					156C84B22031254F00884684 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					156C84C62031255000884684 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 156C84B22031254F00884684;
+					};
+					156C84D12031255000884684 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 156C84B22031254F00884684;
+					};
+				};
+			};
+			buildConfigurationList = 156C84AE2031254E00884684 /* Build configuration list for PBXProject "Mixtape" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 156C84AA2031254E00884684;
+			productRefGroup = 156C84B42031254F00884684 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				156C84B22031254F00884684 /* Mixtape */,
+				156C84C62031255000884684 /* MixtapeTests */,
+				156C84D12031255000884684 /* MixtapeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		156C84B12031254F00884684 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				156C84C12031254F00884684 /* LaunchScreen.storyboard in Resources */,
+				156C84BE2031254F00884684 /* Assets.xcassets in Resources */,
+				156C84BC2031254F00884684 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		156C84C52031255000884684 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		156C84D02031255000884684 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12B43F03E6BA3EEC44D054DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MixtapeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27AAF7AF676DC49C0D65ED89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mixtape-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C49369BD44667C5C335B697 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MixtapeUITests/Pods-MixtapeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		503171FB3D26E69933A494B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MixtapeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59B118F1C74F252BD86EDA95 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MixtapeTests/Pods-MixtapeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62B4F9146C14895EBBB07503 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mixtape/Pods-Mixtape-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D12632339735BF1F1B3E7370 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Mixtape/Pods-Mixtape-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxFlow/RxFlow.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxFlow.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mixtape/Pods-Mixtape-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB8E1FD533B2457F92599A78 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MixtapeUITests/Pods-MixtapeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF4CD5D8027D05889993CF78 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MixtapeTests/Pods-MixtapeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		156C84AF2031254F00884684 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				156C84B92031254F00884684 /* ViewController.swift in Sources */,
+				156C84B72031254F00884684 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		156C84C32031255000884684 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				156C84CC2031255000884684 /* MixtapeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		156C84CE2031255000884684 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				156C84D72031255000884684 /* MixtapeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		156C84C92031255000884684 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 156C84B22031254F00884684 /* Mixtape */;
+			targetProxy = 156C84C82031255000884684 /* PBXContainerItemProxy */;
+		};
+		156C84D42031255000884684 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 156C84B22031254F00884684 /* Mixtape */;
+			targetProxy = 156C84D32031255000884684 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		156C84BA2031254F00884684 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				156C84BB2031254F00884684 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		156C84BF2031254F00884684 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				156C84C02031254F00884684 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		156C84D92031255100884684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		156C84DA2031255100884684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		156C84DC2031255100884684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC127D1C4CCAF3C2B231C8EE /* Pods-Mixtape.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GNH4G8M8G6;
+				INFOPLIST_FILE = Mixtape/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EricWang.Mixtape;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		156C84DD2031255100884684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A235CDECF4CACF457D5B9ED /* Pods-Mixtape.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GNH4G8M8G6;
+				INFOPLIST_FILE = Mixtape/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EricWang.Mixtape;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		156C84DF2031255100884684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41081F59FB4E83242BF27173 /* Pods-MixtapeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MixtapeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EricWang.MixtapeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mixtape.app/Mixtape";
+			};
+			name = Debug;
+		};
+		156C84E02031255100884684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1747F3973FADB7AB81CD959B /* Pods-MixtapeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MixtapeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EricWang.MixtapeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mixtape.app/Mixtape";
+			};
+			name = Release;
+		};
+		156C84E22031255100884684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EEFE34AFDE3CD7318467952 /* Pods-MixtapeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MixtapeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EricWang.MixtapeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mixtape;
+			};
+			name = Debug;
+		};
+		156C84E32031255100884684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A300E04D66856AAA58CD8390 /* Pods-MixtapeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MixtapeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EricWang.MixtapeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mixtape;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		156C84AE2031254E00884684 /* Build configuration list for PBXProject "Mixtape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				156C84D92031255100884684 /* Debug */,
+				156C84DA2031255100884684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		156C84DB2031255100884684 /* Build configuration list for PBXNativeTarget "Mixtape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				156C84DC2031255100884684 /* Debug */,
+				156C84DD2031255100884684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		156C84DE2031255100884684 /* Build configuration list for PBXNativeTarget "MixtapeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				156C84DF2031255100884684 /* Debug */,
+				156C84E02031255100884684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		156C84E12031255100884684 /* Build configuration list for PBXNativeTarget "MixtapeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				156C84E22031255100884684 /* Debug */,
+				156C84E32031255100884684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 156C84AB2031254E00884684 /* Project object */;
+}
