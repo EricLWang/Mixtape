@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jbD-NW-Vab">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -19,31 +19,31 @@
         </array>
     </customFonts>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Login View Controller-->
+        <scene sceneID="nhQ-PU-Thz">
             <objects>
-                <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <viewController id="jbD-NW-Vab" customClass="LoginViewController" customModule="Mixtape" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9Zd-MN-POj">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_background" translatesAutoresizingMaskIntoConstraints="NO" id="jKm-7R-bCs">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_background" translatesAutoresizingMaskIntoConstraints="NO" id="JuN-Vt-Jq7">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MIXTAPE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K2O-7K-kSp">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MIXTAPE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RdZ-tl-OF1">
                                 <rect key="frame" x="0.0" y="100" width="375" height="64"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="K2O-7K-kSp" secondAttribute="height" multiplier="375:64" id="nZG-hK-XsE"/>
+                                    <constraint firstAttribute="width" secondItem="RdZ-tl-OF1" secondAttribute="height" multiplier="375:64" id="Cel-xe-7qH"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Cabin-Bold" family="Cabin" pointSize="36"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="raE-NJ-jCy">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RGS-Wl-JrE">
                                 <rect key="frame" x="57.5" y="264" width="260" height="50"/>
-                                <color key="backgroundColor" red="0.32549019607843138" green="0.32156862745098036" blue="0.92941176470588238" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.32549019607843138" green="0.32156862745098036" blue="0.92941176470588238" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="raE-NJ-jCy" secondAttribute="height" multiplier="26:5" id="Gzq-DV-zeo"/>
+                                    <constraint firstAttribute="width" secondItem="RGS-Wl-JrE" secondAttribute="height" multiplier="26:5" id="gXl-sf-RJi"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="18"/>
                                 <state key="normal" title="Login with Spotify">
@@ -51,29 +51,28 @@
                                 </state>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="jKm-7R-bCs" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="3pw-KQ-RmU"/>
-                            <constraint firstItem="raE-NJ-jCy" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="260:667" id="DXp-gq-DEr"/>
-                            <constraint firstItem="K2O-7K-kSp" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Efc-Fh-5e0"/>
-                            <constraint firstItem="K2O-7K-kSp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="MIU-ue-gQv"/>
-                            <constraint firstItem="raE-NJ-jCy" firstAttribute="top" secondItem="K2O-7K-kSp" secondAttribute="bottom" constant="100" id="RbL-xd-wFg"/>
-                            <constraint firstItem="jKm-7R-bCs" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="UK6-dw-hmw"/>
-                            <constraint firstItem="jKm-7R-bCs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ZEU-Lj-Osa"/>
-                            <constraint firstItem="jKm-7R-bCs" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="c0P-pG-kIw"/>
-                            <constraint firstItem="K2O-7K-kSp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="80" id="nYU-Yo-yev"/>
-                            <constraint firstItem="raE-NJ-jCy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="v8l-al-ahy"/>
+                            <constraint firstItem="RdZ-tl-OF1" firstAttribute="trailing" secondItem="h1s-LR-HEJ" secondAttribute="trailing" id="0md-wY-ZeZ"/>
+                            <constraint firstItem="RdZ-tl-OF1" firstAttribute="leading" secondItem="h1s-LR-HEJ" secondAttribute="leading" id="CxD-Cm-2ky"/>
+                            <constraint firstItem="RGS-Wl-JrE" firstAttribute="centerX" secondItem="9Zd-MN-POj" secondAttribute="centerX" id="I7j-2E-o8A"/>
+                            <constraint firstItem="JuN-Vt-Jq7" firstAttribute="trailing" secondItem="h1s-LR-HEJ" secondAttribute="trailing" id="Jd7-Nk-6Hw"/>
+                            <constraint firstItem="RGS-Wl-JrE" firstAttribute="top" secondItem="RdZ-tl-OF1" secondAttribute="bottom" constant="100" id="KSI-sP-8UR"/>
+                            <constraint firstItem="JuN-Vt-Jq7" firstAttribute="bottom" secondItem="h1s-LR-HEJ" secondAttribute="bottom" id="PGW-3a-TC9"/>
+                            <constraint firstItem="RGS-Wl-JrE" firstAttribute="width" secondItem="9Zd-MN-POj" secondAttribute="height" multiplier="260:667" id="XHi-4D-2Up"/>
+                            <constraint firstItem="RdZ-tl-OF1" firstAttribute="top" secondItem="h1s-LR-HEJ" secondAttribute="top" constant="80" id="izG-ac-Ixt"/>
+                            <constraint firstItem="JuN-Vt-Jq7" firstAttribute="leading" secondItem="h1s-LR-HEJ" secondAttribute="leading" id="n2M-3V-9Ui"/>
+                            <constraint firstItem="JuN-Vt-Jq7" firstAttribute="top" secondItem="9Zd-MN-POj" secondAttribute="top" id="zBS-WL-7kM"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <connections>
-                            <outlet property="loginButton" destination="raE-NJ-jCy" id="0os-mh-QbV"/>
-                            <outlet property="titleLabel" destination="K2O-7K-kSp" id="Nhx-04-MJ3"/>
-                        </connections>
+                        <viewLayoutGuide key="safeArea" id="h1s-LR-HEJ"/>
                     </view>
+                    <connections>
+                        <outlet property="loginButton" destination="RGS-Wl-JrE" id="IdI-iB-HJE"/>
+                        <outlet property="titleLabel" destination="RdZ-tl-OF1" id="Uqg-ha-74N"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KKL-5C-kXN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+            <point key="canvasLocation" x="116" y="-161.46926536731635"/>
         </scene>
     </scenes>
     <resources>

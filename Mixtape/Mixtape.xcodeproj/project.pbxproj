@@ -12,9 +12,9 @@
 		15604A2D2055843900FB6BE7 /* Cabin-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15604A292055843800FB6BE7 /* Cabin-Regular.ttf */; };
 		15604A2E2055843900FB6BE7 /* Cabin-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15604A2A2055843800FB6BE7 /* Cabin-Bold.ttf */; };
 		15604A33205586F600FB6BE7 /* UIView+DropShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15604A32205586F600FB6BE7 /* UIView+DropShadow.swift */; };
+		15604A3420558BFA00FB6BE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 156C84BA2031254F00884684 /* Main.storyboard */; };
 		156C84B72031254F00884684 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156C84B62031254F00884684 /* AppDelegate.swift */; };
 		156C84B92031254F00884684 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156C84B82031254F00884684 /* BaseViewController.swift */; };
-		156C84BC2031254F00884684 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 156C84BA2031254F00884684 /* Main.storyboard */; };
 		156C84BE2031254F00884684 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 156C84BD2031254F00884684 /* Assets.xcassets */; };
 		156C84C12031254F00884684 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 156C84BF2031254F00884684 /* LaunchScreen.storyboard */; };
 		156C84CC2031255000884684 /* MixtapeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156C84CB2031255000884684 /* MixtapeTests.swift */; };
@@ -417,10 +417,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15604A3420558BFA00FB6BE7 /* Main.storyboard in Resources */,
 				156C84C12031254F00884684 /* LaunchScreen.storyboard in Resources */,
 				156C84BE2031254F00884684 /* Assets.xcassets in Resources */,
 				15604A2E2055843900FB6BE7 /* Cabin-Bold.ttf in Resources */,
-				156C84BC2031254F00884684 /* Main.storyboard in Resources */,
 				15604A2B2055843900FB6BE7 /* Cabin-SemiBold.ttf in Resources */,
 				15604A2C2055843900FB6BE7 /* Cabin-Italic.ttf in Resources */,
 				15604A2D2055843900FB6BE7 /* Cabin-Regular.ttf in Resources */,

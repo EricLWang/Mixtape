@@ -11,7 +11,13 @@ import RxCocoa
 
 class LoginViewModel: BaseViewModel {
     
+    let authEnabled = BehaviorSubject<Bool>(value: false)
+    
     init(loginTapped: Driver<Void>) {
         super.init()
+        
+        loginTapped.drive(onNext: { (_) in
+            self.authEnabled.onNext(true)
+        }).disposed(by: disposeBag)
     }
 }

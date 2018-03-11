@@ -20,3 +20,10 @@ public extension UIView {
         self.layer.shadowOpacity = 0.0
     }
 }
+
+public extension UIButton {
+    public func setCornerRadius(cornerRadius: CGFloat) {
+        self.layer.cornerRadius = cornerRadius
+        self.layer.masksToBounds = true
+    }
+}

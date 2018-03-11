@@ -24,11 +24,15 @@ class BaseViewController<T: BaseViewModel>: UIViewController, MVVMViewController
     typealias ViewModelType = T
     var viewModel: T!
     
-    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+    override public var supportedInterfaceOrientations: UIInterfaceOrientationMask {
         return .portrait
     }
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
 
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
         self.viewModel = self.createViewModel()
         self.dataBinding()
@@ -45,6 +49,5 @@ class BaseViewController<T: BaseViewModel>: UIViewController, MVVMViewController
     func dataBinding() {
         
     }
-
 }
 
