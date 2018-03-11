@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jbD-NW-Vab">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Cabin-Bold.ttf">
+            <string>Cabin-Bold</string>
+        </array>
+        <array key="Cabin-Regular.ttf">
+            <string>Cabin-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="nhQ-PU-Thz">
+            <objects>
+                <viewController id="jbD-NW-Vab" customClass="LoginViewController" customModule="Mixtape" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9Zd-MN-POj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_background" translatesAutoresizingMaskIntoConstraints="NO" id="JuN-Vt-Jq7">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MIXTAPE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RdZ-tl-OF1">
+                                <rect key="frame" x="0.0" y="100" width="375" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="RdZ-tl-OF1" secondAttribute="height" multiplier="375:64" id="Cel-xe-7qH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Cabin-Bold" family="Cabin" pointSize="36"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RGS-Wl-JrE">
+                                <rect key="frame" x="57.5" y="264" width="260" height="50"/>
+                                <color key="backgroundColor" red="0.32549019607843138" green="0.32156862745098036" blue="0.92941176470588238" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="RGS-Wl-JrE" secondAttribute="height" multiplier="26:5" id="gXl-sf-RJi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="18"/>
+                                <state key="normal" title="Login with Spotify">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="RdZ-tl-OF1" firstAttribute="trailing" secondItem="h1s-LR-HEJ" secondAttribute="trailing" id="0md-wY-ZeZ"/>
+                            <constraint firstItem="RdZ-tl-OF1" firstAttribute="leading" secondItem="h1s-LR-HEJ" secondAttribute="leading" id="CxD-Cm-2ky"/>
+                            <constraint firstItem="RGS-Wl-JrE" firstAttribute="centerX" secondItem="9Zd-MN-POj" secondAttribute="centerX" id="I7j-2E-o8A"/>
+                            <constraint firstItem="JuN-Vt-Jq7" firstAttribute="trailing" secondItem="h1s-LR-HEJ" secondAttribute="trailing" id="Jd7-Nk-6Hw"/>
+                            <constraint firstItem="RGS-Wl-JrE" firstAttribute="top" secondItem="RdZ-tl-OF1" secondAttribute="bottom" constant="100" id="KSI-sP-8UR"/>
+                            <constraint firstItem="JuN-Vt-Jq7" firstAttribute="bottom" secondItem="h1s-LR-HEJ" secondAttribute="bottom" id="PGW-3a-TC9"/>
+                            <constraint firstItem="RGS-Wl-JrE" firstAttribute="width" secondItem="9Zd-MN-POj" secondAttribute="height" multiplier="260:667" id="XHi-4D-2Up"/>
+                            <constraint firstItem="RdZ-tl-OF1" firstAttribute="top" secondItem="h1s-LR-HEJ" secondAttribute="top" constant="80" id="izG-ac-Ixt"/>
+                            <constraint firstItem="JuN-Vt-Jq7" firstAttribute="leading" secondItem="h1s-LR-HEJ" secondAttribute="leading" id="n2M-3V-9Ui"/>
+                            <constraint firstItem="JuN-Vt-Jq7" firstAttribute="top" secondItem="9Zd-MN-POj" secondAttribute="top" id="zBS-WL-7kM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="h1s-LR-HEJ"/>
+                    </view>
+                    <connections>
+                        <outlet property="loginButton" destination="RGS-Wl-JrE" id="IdI-iB-HJE"/>
+                        <outlet property="titleLabel" destination="RdZ-tl-OF1" id="Uqg-ha-74N"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KKL-5C-kXN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="116" y="-161.46926536731635"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="login_background" width="375" height="667"/>
+    </resources>
+</document>
