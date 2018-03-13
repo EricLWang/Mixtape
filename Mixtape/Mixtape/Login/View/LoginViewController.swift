@@ -30,8 +30,15 @@ class LoginViewController: BaseViewController<LoginViewModel> {
         viewModel.authEnabled.asDriver(onErrorJustReturn: false)
             .drive(onNext: { (authEnabled) in
             if authEnabled {
-                print("USER AUTHENTICATED! PUSHING TO FEED")
+                self.pushToFeed()
             }
         }).disposed(by: disposeBag)
+    }
+    
+    private func pushToFeed() {
+        if let vc = UIStoryboard.instantiateViewController(withIdentifier: "FeedViewController", inStoryboard: .MAIN) as? FeedViewController {
+            // TODO: pass necessary data to feed vc
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
     }
 }
