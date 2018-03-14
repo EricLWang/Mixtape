@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Cabin-Bold.ttf">
+            <string>Cabin-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PlayerBar" customModule="Mixtape" customModuleProvider="target">
+            <connections>
+                <outlet property="playPauseButton" destination="5e3-QS-M3V" id="Zpq-Tn-c7w"/>
+                <outlet property="titleLabel" destination="Mgu-eh-tSJ" id="das-hq-3vv"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5e3-QS-M3V">
+                    <rect key="frame" x="332" y="13" width="25" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="5e3-QS-M3V" secondAttribute="height" multiplier="1:1" id="URw-qX-Kli"/>
+                    </constraints>
+                    <state key="normal" image="pause_button"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GgF-ba-p7w">
+                    <rect key="frame" x="18" y="20.5" width="15" height="9"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="GgF-ba-p7w" secondAttribute="height" multiplier="5:3" id="FJf-6C-O5z"/>
+                    </constraints>
+                    <state key="normal" image="up_arrow"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Best Man - Huncho Jack " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mgu-eh-tSJ">
+                    <rect key="frame" x="48" y="10" width="269" height="30"/>
+                    <fontDescription key="fontDescription" name="Cabin-Bold" family="Cabin" pointSize="16"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.29019607843137252" green="0.29019607843137252" blue="0.29019607843137252" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Mgu-eh-tSJ" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="10" id="5L8-mT-VaT"/>
+                <constraint firstItem="GgF-ba-p7w" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="3:10" id="73X-N4-0gF"/>
+                <constraint firstItem="GgF-ba-p7w" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Ctg-GS-LLk"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Mgu-eh-tSJ" secondAttribute="bottom" constant="10" id="Dq7-J3-l42"/>
+                <constraint firstItem="5e3-QS-M3V" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="1:2" id="HQ4-Sv-L47"/>
+                <constraint firstItem="5e3-QS-M3V" firstAttribute="leading" secondItem="Mgu-eh-tSJ" secondAttribute="trailing" constant="15" id="LzY-gb-aTr"/>
+                <constraint firstItem="GgF-ba-p7w" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="18" id="RqB-xV-4VR"/>
+                <constraint firstItem="Mgu-eh-tSJ" firstAttribute="leading" secondItem="GgF-ba-p7w" secondAttribute="trailing" constant="15" id="W7T-A9-IPa"/>
+                <constraint firstItem="5e3-QS-M3V" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="XuJ-is-C9e"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="5e3-QS-M3V" secondAttribute="trailing" constant="18" id="vqu-6u-RpW"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="33.5" y="54"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="pause_button" width="25" height="25"/>
+        <image name="up_arrow" width="15" height="9"/>
+    </resources>
+</document>
