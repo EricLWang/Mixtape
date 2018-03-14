@@ -93,22 +93,48 @@
                                     <action selector="pushToProfile:" destination="fy9-GQ-JSt" eventType="touchUpInside" id="P5h-af-icQ"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2hj-MP-5Mf" customClass="PlayerBar" customModule="Mixtape" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="617" width="375" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="2hj-MP-5Mf" secondAttribute="height" multiplier="15:2" id="49h-NT-Dar"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="po5-eu-4rS">
+                                <rect key="frame" x="27.5" y="543" width="320" height="50"/>
+                                <color key="backgroundColor" red="0.32549019607843138" green="0.32156862745098036" blue="0.92941176470588238" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="po5-eu-4rS" secondAttribute="height" multiplier="32:5" id="wSI-bk-KtM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="21"/>
+                                <state key="normal" title="Submit Track">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.18431372549019609" green="0.20784313725490194" blue="0.25882352941176467" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="po5-eu-4rS" firstAttribute="width" secondItem="JZC-M0-PlM" secondAttribute="height" multiplier="320:667" id="2Xp-rl-fpp"/>
                             <constraint firstItem="PuH-7W-C4K" firstAttribute="trailing" secondItem="sXN-0l-4MK" secondAttribute="trailing" constant="20" id="2ce-FU-jqc"/>
+                            <constraint firstItem="2hj-MP-5Mf" firstAttribute="bottom" secondItem="PuH-7W-C4K" secondAttribute="bottom" id="TVC-Uq-0Be"/>
+                            <constraint firstItem="po5-eu-4rS" firstAttribute="centerX" secondItem="JZC-M0-PlM" secondAttribute="centerX" id="TxH-CM-6Pl"/>
+                            <constraint firstItem="2hj-MP-5Mf" firstAttribute="trailing" secondItem="PuH-7W-C4K" secondAttribute="trailing" id="gd9-m6-XI9"/>
                             <constraint firstItem="sXN-0l-4MK" firstAttribute="top" secondItem="PuH-7W-C4K" secondAttribute="top" constant="10" id="gv7-f4-FbV"/>
                             <constraint firstItem="sXN-0l-4MK" firstAttribute="width" secondItem="JZC-M0-PlM" secondAttribute="height" multiplier="22:667" id="jmM-9j-kQB"/>
+                            <constraint firstItem="2hj-MP-5Mf" firstAttribute="top" secondItem="po5-eu-4rS" secondAttribute="bottom" constant="24" id="n1F-Po-CIp"/>
+                            <constraint firstItem="2hj-MP-5Mf" firstAttribute="leading" secondItem="PuH-7W-C4K" secondAttribute="leading" id="raG-GQ-Wbs"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="PuH-7W-C4K"/>
                     </view>
                     <connections>
+                        <outlet property="playerBar" destination="2hj-MP-5Mf" id="mc3-tV-YCI"/>
                         <outlet property="profileButton" destination="sXN-0l-4MK" id="ooS-39-96W"/>
+                        <outlet property="submitTrackButton" destination="po5-eu-4rS" id="fZd-PV-pMX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cAm-pM-Ia0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1473" y="-162"/>
+            <point key="canvasLocation" x="1472.8" y="-162.3688155922039"/>
         </scene>
         <!--Profile View Controller-->
         <scene sceneID="ZZH-Ji-5ZT">
