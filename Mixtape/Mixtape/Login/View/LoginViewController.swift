@@ -36,7 +36,7 @@ class LoginViewController: BaseViewController<LoginViewModel> {
     }
     
     private func pushToFeed() {
-        if let vc = UIStoryboard.instantiateViewController(withIdentifier: "FeedViewController", inStoryboard: .MAIN) as? FeedViewController {
+        if let vc = UIStoryboard.instantiateViewController(withIdentifier: "PlayerViewController", inStoryboard: .MAIN) as? PlayerViewController {
             // TODO: pass necessary data to feed vc
             self.navigationController?.pushViewController(vc, animated: true)
         }

@@ -21,6 +21,8 @@
 		156C84D72031255000884684 /* MixtapeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156C84D62031255000884684 /* MixtapeUITests.swift */; };
 		157C1603205808EE00D8D291 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157C1602205808EE00D8D291 /* ProfileViewModel.swift */; };
 		157C16052058090500D8D291 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157C16042058090500D8D291 /* ProfileViewController.swift */; };
+		15925DAA2067FA6E00BF0824 /* PlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15925DA92067FA6E00BF0824 /* PlayerViewModel.swift */; };
+		15925DAC2067FA7500BF0824 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15925DAB2067FA7500BF0824 /* PlayerViewController.swift */; };
 		1593944B205596520025473E /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1593944A205596520025473E /* FeedViewModel.swift */; };
 		1593944D2055965C0025473E /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1593944C2055965C0025473E /* FeedViewController.swift */; };
 		15939450205597720025473E /* Consts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1593944F205597720025473E /* Consts.swift */; };
@@ -74,6 +76,8 @@
 		156C84D82031255100884684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		157C1602205808EE00D8D291 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		157C16042058090500D8D291 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		15925DA92067FA6E00BF0824 /* PlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewModel.swift; sourceTree = "<group>"; };
+		15925DAB2067FA7500BF0824 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		1593944A205596520025473E /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeedViewModel.swift; path = "../../../../../snapsheet-shops-ios/FeedViewModel.swift"; sourceTree = "<group>"; };
 		1593944C2055965C0025473E /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeedViewController.swift; path = "../../../../../snapsheet-shops-ios/FeedViewController.swift"; sourceTree = "<group>"; };
 		1593944F205597720025473E /* Consts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Consts.swift; path = "../../../../snapsheet-shops-ios/Consts.swift"; sourceTree = "<group>"; };
@@ -176,6 +180,7 @@
 				15DC06172054AFD30000C315 /* Base */,
 				15DC06102054AF950000C315 /* Login */,
 				15939447205596340025473E /* Feed */,
+				15925DA62067FA5300BF0824 /* Player */,
 				157C15FF205808D400D8D291 /* Profile */,
 				156C84BD2031254F00884684 /* Assets.xcassets */,
 			);
@@ -221,6 +226,31 @@
 			isa = PBXGroup;
 			children = (
 				157C16042058090500D8D291 /* ProfileViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		15925DA62067FA5300BF0824 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				15925DA72067FA5E00BF0824 /* ViewModel */,
+				15925DA82067FA6300BF0824 /* View */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		15925DA72067FA5E00BF0824 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				15925DA92067FA6E00BF0824 /* PlayerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		15925DA82067FA6300BF0824 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				15925DAB2067FA7500BF0824 /* PlayerViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -666,6 +696,7 @@
 				156C84B92031254F00884684 /* BaseViewController.swift in Sources */,
 				156C84B72031254F00884684 /* AppDelegate.swift in Sources */,
 				15604A33205586F600FB6BE7 /* UIView+DropShadow.swift in Sources */,
+				15925DAA2067FA6E00BF0824 /* PlayerViewModel.swift in Sources */,
 				15DC06212054B1CC0000C315 /* LoginViewController.swift in Sources */,
 				15CAFE1820595F7100685F5E /* PlayerBar.swift in Sources */,
 				157C16052058090500D8D291 /* ProfileViewController.swift in Sources */,
@@ -674,6 +705,7 @@
 				15939452205598000025473E /* UIStoryboard+ Instantiation.swift in Sources */,
 				15939450205597720025473E /* Consts.swift in Sources */,
 				15DC061B2054B02E0000C315 /* BaseViewModel.swift in Sources */,
+				15925DAC2067FA7500BF0824 /* PlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
