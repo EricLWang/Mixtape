@@ -242,12 +242,22 @@
                         <viewLayoutGuide key="safeArea" id="vq6-vn-Jt6"/>
                     </view>
                     <connections>
+                        <outlet property="addToPlaylistButton" destination="ShZ-Il-deg" id="SX0-rV-X2J"/>
                         <outlet property="albumImage" destination="C2r-Bx-1me" id="A2r-6g-PuE"/>
                         <outlet property="artistLabel" destination="zUB-QU-JL5" id="Rzp-qm-0AM"/>
                         <outlet property="cdCenterView" destination="JcY-pJ-stU" id="fF9-fT-YYn"/>
                         <outlet property="collapseButton" destination="JZv-to-vog" id="3ZG-bh-XYW"/>
+                        <outlet property="currentTimeLabel" destination="ZYJ-VL-L3y" id="ZBu-LT-GzW"/>
+                        <outlet property="dividerView" destination="9PC-uK-3Bd" id="FZK-b7-Zfw"/>
+                        <outlet property="fastForwardButton" destination="ufd-wf-gk8" id="BCq-cJ-7KF"/>
+                        <outlet property="likeButton" destination="nPs-SM-fF3" id="Fwr-Io-dQf"/>
+                        <outlet property="likeCountLabel" destination="31i-ts-0Vv" id="VsC-9h-XhL"/>
+                        <outlet property="playPauseButton" destination="NRJ-vG-MtP" id="MXf-6s-l5h"/>
+                        <outlet property="rewindButton" destination="QWU-fA-NOn" id="QL7-Xd-9TO"/>
                         <outlet property="selectedByLabel" destination="kmP-Rt-Zfd" id="Lba-SZ-EXH"/>
+                        <outlet property="songTimeProgressView" destination="WGA-1p-inT" id="4t8-sY-kvU"/>
                         <outlet property="songTitleLabel" destination="oLT-tq-1K9" id="v6T-c0-Ry8"/>
+                        <outlet property="totalTimeLabel" destination="MrT-W1-weP" id="IYf-uW-zUJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jdy-dt-Iag" userLabel="First Responder" sceneMemberID="firstResponder"/>

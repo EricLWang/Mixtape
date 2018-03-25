@@ -20,6 +20,19 @@ class PlayerViewController: BaseViewController<PlayerViewModel> {
     @IBOutlet weak var artistLabel: UILabel!
     @IBOutlet weak var selectedByLabel: UILabel!
     
+    @IBOutlet weak var likeButton: UIButton!
+    @IBOutlet weak var likeCountLabel: UILabel!
+    @IBOutlet weak var dividerView: UIView!
+    @IBOutlet weak var addToPlaylistButton: UIButton!
+    
+    @IBOutlet weak var currentTimeLabel: UILabel!
+    @IBOutlet weak var songTimeProgressView: UIProgressView!
+    @IBOutlet weak var totalTimeLabel: UILabel!
+    
+    @IBOutlet weak var rewindButton: UIButton!
+    @IBOutlet weak var playPauseButton: UIButton!
+    @IBOutlet weak var fastForwardButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
