@@ -95,20 +95,20 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sza" translatesAutoresizingMaskIntoConstraints="NO" id="C2r-Bx-1me">
-                                <rect key="frame" x="87.5" y="68" width="200" height="200.5"/>
+                                <rect key="frame" x="87.5" y="68" width="200" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="C2r-Bx-1me" secondAttribute="height" multiplier="1:1" id="QXC-v2-xsy"/>
                                 </constraints>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JcY-pJ-stU">
-                                <rect key="frame" x="175" y="155.5" width="25" height="25.5"/>
+                                <rect key="frame" x="175" y="155.5" width="25" height="25"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="JcY-pJ-stU" secondAttribute="height" multiplier="1:1" id="1Di-eT-Lwj"/>
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Love Galore" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oLT-tq-1K9">
-                                <rect key="frame" x="15" y="298.5" width="345" height="34"/>
+                                <rect key="frame" x="15" y="298" width="345" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="wWE-Y8-TD4"/>
                                 </constraints>
@@ -117,7 +117,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SZA ft. Travis Scott" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zUB-QU-JL5">
-                                <rect key="frame" x="15" y="338.5" width="345" height="24"/>
+                                <rect key="frame" x="15" y="338" width="345" height="24"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="24" id="Lhq-Jd-Zbf"/>
                                 </constraints>
@@ -126,7 +126,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="selected by: Jonathan Tsao" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kmP-Rt-Zfd">
-                                <rect key="frame" x="15" y="370.5" width="345" height="18"/>
+                                <rect key="frame" x="15" y="370" width="345" height="18"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="18" id="cv3-2k-DJQ"/>
                                 </constraints>
@@ -135,7 +135,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9PC-uK-3Bd">
-                                <rect key="frame" x="187" y="416.5" width="1" height="25"/>
+                                <rect key="frame" x="187" y="416" width="1" height="25"/>
                                 <color key="backgroundColor" red="0.72549019607843135" green="0.71372549019607845" blue="0.71372549019607845" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="1" id="BAB-T1-KD8"/>
@@ -143,52 +143,52 @@
                                 </constraints>
                             </view>
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="WGA-1p-inT">
-                                <rect key="frame" x="44" y="479.5" width="287" height="2"/>
+                                <rect key="frame" x="44" y="479" width="287" height="2"/>
                                 <color key="tintColor" red="0.32549019607843138" green="0.32156862745098036" blue="0.92941176470588238" alpha="1" colorSpace="calibratedRGB"/>
                             </progressView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NRJ-vG-MtP">
-                                <rect key="frame" x="152.5" y="519.5" width="70" height="69.5"/>
+                                <rect key="frame" x="152.5" y="519" width="70" height="70"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="NRJ-vG-MtP" secondAttribute="height" multiplier="1:1" id="oaz-x7-J8O"/>
                                 </constraints>
-                                <state key="normal" image="pause_button"/>
+                                <state key="normal" image="player_play_button"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ufd-wf-gk8">
-                                <rect key="frame" x="252.5" y="543.5" width="30" height="21.5"/>
+                                <rect key="frame" x="252.5" y="543" width="30" height="22"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="ufd-wf-gk8" secondAttribute="height" multiplier="15:11" id="Mck-0p-dqE"/>
                                 </constraints>
                                 <state key="normal" image="fast_forward_button"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QWU-fA-NOn">
-                                <rect key="frame" x="92.5" y="543.5" width="30" height="21.5"/>
+                                <rect key="frame" x="92.5" y="543" width="30" height="22"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="QWU-fA-NOn" secondAttribute="height" multiplier="15:11" id="bGy-q2-3QV"/>
                                 </constraints>
                                 <state key="normal" image="rewind_button"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0:56" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZYJ-VL-L3y">
-                                <rect key="frame" x="13.5" y="474" width="22.5" height="13"/>
+                                <rect key="frame" x="13.5" y="473.5" width="22.5" height="13"/>
                                 <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="11"/>
                                 <color key="textColor" red="0.72549019607843135" green="0.71372549019607845" blue="0.71372549019607845" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3:22" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MrT-W1-weP">
-                                <rect key="frame" x="339" y="474" width="20" height="13"/>
+                                <rect key="frame" x="339" y="473.5" width="20" height="13"/>
                                 <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="11"/>
                                 <color key="textColor" red="0.72549019607843135" green="0.71372549019607845" blue="0.71372549019607845" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ShZ-Il-deg">
-                                <rect key="frame" x="228" y="417.5" width="51" height="22"/>
+                                <rect key="frame" x="228" y="417" width="51" height="22"/>
                                 <state key="normal" image="add_button"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nPs-SM-fF3">
-                                <rect key="frame" x="108" y="418" width="15" height="22"/>
+                                <rect key="frame" x="108" y="417.5" width="15" height="22"/>
                                 <state key="normal" image="heart_button_empty"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="16" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="31i-ts-0Vv">
-                                <rect key="frame" x="131" y="419.5" width="14.5" height="19.5"/>
+                                <rect key="frame" x="131" y="419.5" width="14.5" height="19"/>
                                 <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="16"/>
                                 <color key="textColor" red="0.72549019607843135" green="0.71372549019607845" blue="0.71372549019607845" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -218,6 +218,8 @@
                             <constraint firstItem="JcY-pJ-stU" firstAttribute="centerY" secondItem="C2r-Bx-1me" secondAttribute="centerY" id="NT2-S1-3HH"/>
                             <constraint firstItem="31i-ts-0Vv" firstAttribute="leading" secondItem="nPs-SM-fF3" secondAttribute="trailing" constant="8" id="NTj-OJ-d00"/>
                             <constraint firstItem="QWU-fA-NOn" firstAttribute="centerY" secondItem="NRJ-vG-MtP" secondAttribute="centerY" id="OCd-uv-16s"/>
+                            <constraint firstItem="ZYJ-VL-L3y" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="vq6-vn-Jt6" secondAttribute="leading" constant="10" id="Odc-77-jZO"/>
+                            <constraint firstItem="vq6-vn-Jt6" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="MrT-W1-weP" secondAttribute="trailing" constant="10" id="SQa-n0-Ylk"/>
                             <constraint firstItem="9PC-uK-3Bd" firstAttribute="leading" secondItem="nPs-SM-fF3" secondAttribute="trailing" constant="64" id="Uxn-A9-ThV"/>
                             <constraint firstItem="NRJ-vG-MtP" firstAttribute="width" secondItem="LxX-4y-kqX" secondAttribute="height" multiplier="70:667" id="VHT-ag-udl"/>
                             <constraint firstItem="JcY-pJ-stU" firstAttribute="width" secondItem="C2r-Bx-1me" secondAttribute="height" multiplier="1:8" id="XkS-N2-dj1"/>
@@ -385,7 +387,7 @@
         <image name="fast_forward_button" width="30" height="19"/>
         <image name="heart_button_empty" width="15" height="15"/>
         <image name="login_background" width="375" height="667"/>
-        <image name="pause_button" width="70" height="70"/>
+        <image name="player_play_button" width="70" height="70"/>
         <image name="profile_icon" width="20" height="19"/>
         <image name="rewind_button" width="30" height="20"/>
         <image name="sza" width="1000" height="1000"/>
